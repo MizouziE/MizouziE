@@ -71,7 +71,8 @@ class SamAnglinController extends Controller
 
         $details = [
             $sam->email, // s.anglin@live.co.uk
-            $sam->twitter // @mizouzie
+            $sam->twitter, // @mizouzie
+            $sam->website // https://mizouzie.github.io
         ]
 
         return view('samAnglin', compact('details'));
@@ -83,7 +84,7 @@ class SamAnglinController extends Controller
             'name' => 'minerals',
             'language' => 'php',
             'framework' => true,
-            'purpose' => 'app tp track micro-nutrient intake'
+            'purpose' => 'app to track micro-nutrient intake'
         ];
 
         return new Current::project($project);
@@ -112,6 +113,7 @@ class SamAnglinController extends Controller
     <h3>contact</h3>
     <p>Email: {{ $details->email }}</p>
     <p>Twitter: {{ $details->twitter }}</p>
+    <p>Website: {{ $details->website }}</p>
 
     <h3>Goals</h3>
     <ul>
@@ -122,6 +124,11 @@ class SamAnglinController extends Controller
 </body>
 </html>
 ```
+
+### My current github-pages site :computer:
+To see a live personal project where I am trying to be as transparent as possible while demonstrating what I am capable of, please follow [this link](https://mizouzie.github.io):octocat: . I am treating the page as a live CV to show examples of the skills I have in HTML, CSS and JavaScript as this is what github-pages is limited to. I believe that even as a PHP and Laravel focused developer, it is still important to have a firm understanding of these as they form a solid base on which to further explore and improve in web development.
+
+Also, coding is coding. If I'm able to solve a problem in PHP then I should be able to solve a similar one in another language.
 
 ## Some stats :chart_with_upwards_trend:
 ### GitHub numbers:
