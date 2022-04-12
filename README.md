@@ -23,7 +23,7 @@ class SamAnglin extends WebDeveloper
     use GitHub, PHP, Laravel;
 
     protected $fillable = [
-        'email', 'twitter',
+        'email', 'twitter', 'website'
     ];
 
     public function honedSkill() {
@@ -71,7 +71,7 @@ class SamAnglinController extends Controller
 
         $details = [
             $sam->email, // s.anglin@live.co.uk
-            $sam->twitter, // @mizouzie
+            $sam->twitter // @mizouzie
             $sam->website // https://mizouzie.github.io
         ]
 
@@ -81,10 +81,10 @@ class SamAnglinController extends Controller
     Public function doing() {
 
         $project = [
-            'name' => 'minerals',
-            'language' => 'php',
-            'framework' => true,
-            'purpose' => 'app to track micro-nutrient intake'
+            'name' => 'energy-prices-api',
+            'language' => 'JavaScript',
+            'framework' => false,
+            'purpose' => 'project to encourage beginners in Open Source and learn project management'
         ];
 
         return new Current::project($project);
@@ -94,7 +94,7 @@ class SamAnglinController extends Controller
 
         return $this->position('junior_dev')
                     ->whereUsing('laravel')
-                    ->plus('new_challenges');
+                    ->plus('improve_skillset');
     }
 }
 ```
