@@ -31,14 +31,15 @@ class SamAnglin extends WebDeveloper
         $skills = [
             $htmlCssJs,
             $dependanciesManagement,
-            $mySQL,
+            $MySQL,
             $linuxCLI,
             $versionControl
         ];
 
         return $this->hasMany(GitHub::exampleOf($skills), 'repositories')
-                    ->latest('katas')
-                    ->branch('get-some-tdd');
+                    ->latest('vue-crash-course')
+                    ->branch('fake-server')
+                    ->for('learning new Vue 3');
     }
 
     public function learning() {
@@ -92,7 +93,7 @@ class SamAnglinController extends Controller
 
     public function want() {
 
-        return $this->position('junior_dev')
+        return $this->position('developer')
                     ->whereUsing('laravel')
                     ->plus('improve_skillset');
     }
