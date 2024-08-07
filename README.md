@@ -1,20 +1,9 @@
-### My current site :computer:
-To see a live personal project where I am trying to be as transparent as possible while demonstrating what I am capable of, please follow [this link](https://mizouzie.dev):octocat: . I publish any blogs that I write here as well as links to projects I have worked on.
+<div align="center">
+    
+![Sam Anglin's Github Stats](https://github-readme-stats.vercel.app/api?username=MizouziE&show_icons=true&count_private=true&theme=transparent&hide_border=true)
 
-## Some stats :chart_with_upwards_trend:
-### GitHub numbers:
-  <br/>
-    <a align="center" href="https://github.com/MizouziE/"><img alt="Sam Anglin's Github Stats" src="https://github-readme-stats.vercel.app/api?username=MizouziE&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+</div>
 
-### Languages in my repository collection:
-  <a align="center" href="https://github.com/MizouziE/"><img alt="Sam Anglin's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MizouziE&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-
-
-### Languages and tech I am comfortable with: 
 <p align="center">
     <a href="https://laravel.com/" target="_blank"> <img src="https://img.icons8.com/fluency/48/000000/laravel.png"/> </a> 
     <a href="https://www.php.net/" target="_blank"> <img src="https://img.icons8.com/offices/40/000000/php-logo.png"/> </a> 
