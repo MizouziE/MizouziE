@@ -1,6 +1,6 @@
 <div align="center">
     
-![Sam Anglin's Github Stats](https://github-readme-stats.vercel.app/api?username=MizouziE&show_icons=true&count_private=true&theme=transparent&hide_border=true)
+![Sam Anglin's Github Stats](https://grs-mizouzie.vercel.app/api?username=MizouziE&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews,prs_merged)
 
 </div>
 
